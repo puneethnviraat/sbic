@@ -1,0 +1,71 @@
+<div class="container">
+    <div class="row title">
+        <h2>Manage Examination</h2>
+    </div>
+    <div class="form-row">
+        <div class="col-md-3 mb-3">
+            <label for="validationCustom04">Class Name</label>
+            <select class="custom-select" id="validationCustom04" required>
+                <option selected disabled value="">Choose...</option>
+                <option>...</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+            </select>
+            <div class="invalid-feedback">
+                Please select a valid Class.
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <label for="validationCustom04">Exam Type</label>
+            <select class="custom-select" id="validationCustom04" required>
+                <option selected disabled value="">Choose...</option>
+               
+                <option value="1">Preparatory</option>
+                <option value="2">Mid term</option>
+                <option value="3">Final</option>
+            </select>
+            <div class="invalid-feedback">
+                Please select a valid Exam type.
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <label for="validationCustom04">Satarting Date</label>
+            <input type="text" placeholder="mm/dd/yy" class="form-control" bsDatepicker bsDaterangepicker>
+        </div>
+    <div class="col-md-3 mb-3">
+        <div class="form-group">
+            <label for="examFee">Exam Fee</label>
+            <input type="number" class="form-control" id="examFee">
+        </div>
+        </div>
+     
+    </div>
+    <div class="row title">
+        <h2> Examination List</h2>
+    </div>
+    <div class="row">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">Exam Id</th>
+                    <th scope="col">Class</th>
+                    <th scope="col">Exam Type</th>
+                    <th scope="col">From Date</th>
+                    <th scope="col">Fee</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Second</td>
+                    <td>Mid Term</td>
+                    <td>12/12/12</td>
+                    <td>12,000</td>
+                </tr>
+               
+            </tbody>
+        </table>
+    </div>
+</div>

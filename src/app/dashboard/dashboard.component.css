@@ -1,0 +1,43 @@
+.card {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(221, 221, 221, 0.884);
+  margin: 10px;
+}
+
+.card {
+  font-size: 1.75rem;
+}
+.card:hover {
+  box-shadow: 0px 0px 6px 4px rgb(168, 214, 255);
+}
+.card > .fa {
+  margin-bottom: 5px;
+}
+.admission {
+  color: darkred;
+}
+.payment {
+  color: rgb(46, 60, 253);
+}
+.exam {
+  color: green;
+}
+.activity {
+  color: rgb(209, 212, 28);
+}
+.transport {
+  color: rgb(15, 126, 190);
+}
+.employee {
+  color: rgba(104, 214, 250, 0.877);
+}
+.finance {
+  color: blue;
+}
+.settings {
+  color: rgba(187, 10, 157, 0.863);
+}
+a {
+  text-decoration: none;
+}

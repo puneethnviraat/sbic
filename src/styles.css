@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files here*/
+@import url("../node_modules/bootstrap/dist/css/bootstrap.css");
+
+.row {
+  margin: 0px;
+  text-align: center;
+  justify-content: center;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.title {
+  text-align: center;
+  color: dodgerblue;
+}
+.col-md-2 .col-md-3 {
+  padding: 0px 5px;
+}

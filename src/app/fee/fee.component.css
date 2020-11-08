@@ -1,0 +1,12 @@
+.text_left {
+  text-align: left;
+}
+#Available_amount {
+  background-color: darkturquoise;
+}
+#total_row {
+  background-color: lightgreen;
+}
+#index_row {
+  margin-top: 10px;
+}

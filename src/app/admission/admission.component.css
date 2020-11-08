@@ -1,0 +1,32 @@
+.row {
+  text-align: left;
+  margin-bottom: 5px;
+}
+.student_column {
+  border: 1px solid lightskyblue;
+  border-radius: 5px;
+}
+h4 {
+  background-color: lightskyblue;
+  padding: 3px;
+}
+.btn_primary_right {
+  text-align: end;
+}
+.form-group {
+  text-align: left;
+}
+.col-form-label {
+  text-align: left;
+  margin: 0px;
+}
+.col-md-7 {
+  max-width: 55%;
+  margin: 0% 1%;
+  border: 1px solid rgb(153, 153, 153);
+  border-radius: 5px;
+}
+.parent_column > h4 {
+  background-color: rgb(153, 153, 153);
+  padding: 3px;
+}
